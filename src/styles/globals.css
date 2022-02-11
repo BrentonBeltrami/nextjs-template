@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-text-default: #000000;
+		--color-background-default: #FFFFFF;
+	}
+	.pink {
+		--color-text-default: #fecaca;
+		--color-background-default: #611C35;
+	}
+	.dark {
+		--color-text-default: #FFFFFF;
+		--color-background-default: #000000;
+	}
+}
